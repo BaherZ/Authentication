@@ -60,7 +60,7 @@
             </ul>
         </nav>
         <header>
-            <h1>Welcome to your profile, <%= user.username %></h1>
+            <h1>Welcome to your profile, <%= user.google.username %><%= user.facebook.username %></h1>
         </header>
         <main>
             <img src="<%= user.thumbnail %>" />
